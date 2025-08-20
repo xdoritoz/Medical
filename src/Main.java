@@ -29,6 +29,8 @@ public class Main {
         myDoctor.showAvailableapointments();
         myDoctor2.showAvailableapointments();
 
+        System.out.printf(patient.getName()+"\n");
+
         
 
 
