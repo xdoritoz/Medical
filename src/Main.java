@@ -30,6 +30,7 @@ public class Main {
         myDoctor2.showAvailableapointments();
 
         System.out.printf(patient.getName()+"\n");
+        System.out.printf(myDoctor.getName()+"\n");
 
         
 
