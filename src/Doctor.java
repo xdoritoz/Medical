@@ -8,8 +8,9 @@ public class Doctor extends User {
     private int idUnico;
     private  int doctorAlMomento;
 
-    public Doctor(String nombre , String email) {
+    public Doctor(String nombre , String email, String especialidad) {
         super(nombre,email);
+        this.especialidad = especialidad;
 
         System.out.println("construyendo " +  (contador + 1) + " Doctores...");
         this.especialidad = especialidad;
@@ -97,6 +98,11 @@ public class Doctor extends User {
         public void setDay(Date day) {
             this.day = day;
         }
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Especialidad: " + especialidad;
     }
 }
 
