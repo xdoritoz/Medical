@@ -1,7 +1,6 @@
-import javax.print.Doc;
-import java.util.Date;
+package model;
 
-import static UI.UiMenu.*;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,29 +13,29 @@ public class Main {
 
 
 
-//        //showMenu();
-//
-//        Patient patient = new Patient("jose", "mierda@gmail.com");
-//        patient.setHeight(1.65);
-//        patient.setWeight(75);
-//
-//        System.out.println("Height: "+ patient.getHeight());
-//        System.out.println("Weight: "+ patient.getWeight());
-//
-//        System.out.println("Patient name: "+ patient.getName()); // esto es por que el atributo de name de la clase paciente es privado y solo se puede acceder a traves de un metodo que lo maneje
-//
-//        myDoctor.addAvailableapointments(new Date(), "12:00");
-//        myDoctor2.addAvailableapointments(new Date(), "13:00");
-//
-//
-//        myDoctor.showAvailableapointments();
-//        myDoctor2.showAvailableapointments();
-//
-//        System.out.printf(patient.getName()+"\n");
-//        System.out.printf(myDoctor.getName()+"\n");
-//
-//
-//
+        //showMenu();
+
+        Patient patient = new Patient("jose", "mierda@gmail.com");
+        patient.setHeight(1.65);
+        patient.setWeight(75);
+
+        System.out.println("Height: "+ patient.getHeight());
+        System.out.println("Weight: "+ patient.getWeight());
+
+        System.out.println("model.Patient name: "+ patient.getName()); // esto es por que el atributo de name de la clase paciente es privado y solo se puede acceder a traves de un metodo que lo maneje
+
+        myDoctor.addAvailableapointments(new Date(), "12:00");
+        myDoctor2.addAvailableapointments(new Date(), "13:00");
+
+
+        myDoctor.showAvailableapointments();
+        myDoctor2.showAvailableapointments();
+
+        System.out.printf(patient.getName()+"\n");
+        System.out.printf(myDoctor.getName()+"\n");
+
+
+
 
 //        //PRUEBA CON ENUMS
 //

@@ -1,3 +1,5 @@
+package model;
+
 public class Patient extends User{
 
     static int id = 0;

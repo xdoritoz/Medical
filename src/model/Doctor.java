@@ -1,3 +1,5 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -68,9 +70,7 @@ public class Doctor extends User {
     }
 
     public void showAvailableapointments(){
-        for (Availableapointments Aa : availableapointments) {
-            System.out.println(Aa.getDay() + "  ###hora###  " +  Aa.getTime());
-        }
+        availableapointments.forEach(a -> System.out.println("day " + a.getDay() + " time " + a.getTime()));
     }
 
     public static class Availableapointments{

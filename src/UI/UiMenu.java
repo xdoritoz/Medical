@@ -9,11 +9,12 @@ public class UiMenu {
     public static void showMenu(){
         System.out.print("\nWelcome to my appointment:");
         System.out.println("\nSelecciona una opcion:");
+        System.out.println(MONTHS[0]);
 
 
 
         do {
-            System.out.println("1.Doctor");
+            System.out.println("1.model.Doctor");
             System.out.println("2.patient");
             System.out.println("0.salir");
 
